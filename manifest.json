@@ -1,7 +1,8 @@
 {
-  "name": "Cairn \u2013 Trip Planner",
-  "short_name": "Cairn",
-  "description": "Plan and share your trips with an interactive map",
+  "name": "Mapals 足迹地图",
+  "short_name": "Mapals 地图",
+  "description": "和朋友一起记录地点、照片与故事",
+  "lang": "zh-CN",
   "start_url": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
