@@ -1,11 +1,11 @@
-// mvtb50qu is replaced at build time by scripts/stamp-sw.mjs so every deploy
+// mvvwj55c is replaced at build time by scripts/stamp-sw.mjs so every deploy
 // gets its own cache name automatically. The activate handler deletes any
 // cache whose name isn't the current one, so each deploy purges the previous
 // build's assets once the new worker takes over — without this, long-lived
 // clients accumulated every deploy's hashed chunks until someone remembered
 // to bump a manual version string. (In dev the literal placeholder serves as
 // the version; nothing breaks.)
-const CACHE = 'cairn-mvtb50qu';
+const CACHE = 'cairn-mvvwj55c';
 const BASE_PATH = new URL(self.registration.scope).pathname;
 
 // Only the app shell is pre-cached; hashed build assets are cached on demand.
